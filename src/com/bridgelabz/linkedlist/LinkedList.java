@@ -8,7 +8,7 @@ package com.bridgelabz.linkedlist;
 /*
 Simply created the method for welcome message.
  */
-public class Main {
+public class LinkedList {
     public static void display(){
         System.out.println("Welcome to \nData Structure\n" + "Problems using\n" + "Java Generics");
     }
