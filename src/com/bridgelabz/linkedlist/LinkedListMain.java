@@ -1,6 +1,6 @@
 package com.bridgelabz.linkedlist;
 /**
- * Purpose : We have to append 30 and 70 to 56.
+ * Purpose : We have to insert 30 between 56 and 70..
  * @author Utkarsh Mishra
  * @since 2021/09/26
  */
