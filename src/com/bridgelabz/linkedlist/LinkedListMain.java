@@ -1,6 +1,6 @@
 package com.bridgelabz.linkedlist;
 /**
- * Purpose : We have to delete a node 40.
+ * Purpose : We have to create a ordered LinkedList in assending order.
  * @author Utkarsh Mishra
  * @since 2021/09/26
  */
@@ -18,6 +18,7 @@ public class LinkedListMain {
         System.out.println("Enter 6 to find index number,node with value 30 in linked list");
         System.out.println("Enter 7 to Add data after searching required data");
         System.out.println("Enter 8 to delete  after data after searching required data");
+        System.out.println("Enter 9 to Sort the data in LinkedList");
         switch (scanner.nextInt()) {
             case 1:
                 Operations.addDataAtStart();
@@ -42,6 +43,9 @@ public class LinkedListMain {
                 break;
             case 8:
                 Operations.deleteAfterNodeAfterSearchNode();
+                break;
+            case 9:
+                Operations.sortList();
         }
     }
 }
