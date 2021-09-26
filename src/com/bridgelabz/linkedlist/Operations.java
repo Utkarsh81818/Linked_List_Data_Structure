@@ -45,7 +45,6 @@ public class Operations {
         linkedList.pop();
         linkedList.print();
     }
-
     /*
    Created a method to delete last node.
     */
@@ -53,5 +52,12 @@ public class Operations {
         LinkedList linkedList = addDataAtStart();
         linkedList.popLast();
         linkedList.print();
+    }
+    /*
+    Created a method to delete last node.
+    */
+    public static void findNodeBasedOnValue() {
+        LinkedList linkedList = addDataAtStart();
+        linkedList.searchNode(30);
     }
 }
