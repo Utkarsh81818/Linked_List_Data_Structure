@@ -1,6 +1,6 @@
 package com.bridgelabz.linkedlist;
 /**
- * Purpose : We have to delete the first element
+ * Purpose : We have to delete the last element
  * @author Utkarsh Mishra
  * @since 2021/09/26
  */
@@ -14,6 +14,7 @@ public class LinkedListMain {
         System.out.println("Enter 2 to add the data at the end");
         System.out.println("Enter 3 to insert data inBetween");
         System.out.println("Enter 4 to delete first element");
+        System.out.println("enter 5 to delete data of last node");
         switch (scanner.nextInt()) {
             case 1:
                 Operations.addDataAtStart();
@@ -26,6 +27,9 @@ public class LinkedListMain {
                 break;
             case 4:
                 Operations.deleteFirstNode();
+                break;
+            case 5:
+                Operations.deleteLastNode();
                 break;
         }
     }
