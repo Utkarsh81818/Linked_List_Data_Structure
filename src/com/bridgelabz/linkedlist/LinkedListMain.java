@@ -1,6 +1,6 @@
 package com.bridgelabz.linkedlist;
 /**
- * Purpose : We have to search a LinkedList to find a node on which index.
+ * Purpose : We have to insert a node after searching.
  * @author Utkarsh Mishra
  * @since 2021/09/26
  */
@@ -16,6 +16,7 @@ public class LinkedListMain {
         System.out.println("Enter 4 to delete first element");
         System.out.println("enter 5 to delete data of last node");
         System.out.println("Enter 6 to find index number,node with value 30 in linked list");
+        System.out.println("Enter 7 to Add data after searching required data");
         switch (scanner.nextInt()) {
             case 1:
                 Operations.addDataAtStart();
@@ -34,6 +35,10 @@ public class LinkedListMain {
                 break;
             case 6:
                 Operations.findNodeBasedOnValue();
+                break;
+            case 7:
+                Operations.insertAfterSearchNode();
+                break;
         }
     }
 }
